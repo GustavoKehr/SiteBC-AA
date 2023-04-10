@@ -1,0 +1,68 @@
+/* AREA DO ALUNO  */
+a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+}
+
+.input-m-cursos {
+    background-color: rgb(112, 112, 197);
+    color: white;
+}
+
+.background2 {
+    background-color: rgb(112, 112, 197);
+    width: 250px;
+    font-size: 20px;
+}
+
+.logo-bc {
+    text-align: left;
+    float: left;
+    background-color: rgb(112, 112, 197);
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    float: left;
+    background-color: white;
+    width: 100%;
+    padding: 15%;
+}
+
+.td2 {
+    background-color: rgba(223, 223, 223, 0.9);
+    
+}
+
+.ambiente_virtual {
+    text-align: left;
+    float: left;
+    left: 100%;
+    width: 400px;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+td {
+    text-align: center;
+    vertical-align: top;
+    border: 2px;
+    border-style: solid;
+}
+
+tr {
+    border: 2px;
+    border-style: solid;
+}
+
+.table2 {
+    width: 1500px;
+    height: 390px;
+}
+

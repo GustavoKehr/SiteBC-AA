@@ -1,14 +1,14 @@
 body {
-    background-color: black;
+    background-color: grey;
     color: white;
-    background-image: url(fotos/Student_in_Class_\(3618969705\).jpg);
+    background-image: url(fotos/Florence-dia-do-estudante.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    background-blend-mode: multiply;
 }
 
 table {
-    background-color: rgba(0, 0, 0, 0.5);
     color: white(0, 0, 0);
     text-align: right;
     float: center;
@@ -19,8 +19,8 @@ table {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.5);
     height:max-content;
+    text-align: center;
 }
 
 h2,h3 {
@@ -29,12 +29,12 @@ h2,h3 {
 }
 
 .nav {
-    background-color: rgba(255, 255, 255, 0.5);
     color:white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
     padding: 10px 10px;
+    
 }
 
 .backgroud {
@@ -44,12 +44,12 @@ h2,h3 {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px;
     text-align: center;
     bottom: 0;
     position: fixed;
     width: 100%;
+
 }
 
 .instagram {
@@ -60,9 +60,27 @@ footer {
     padding: 10px;
 }
 
-.placeholder {
-    float: right;
+.ph {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    height: 35px;
+    width: 300px;
 }
+
+input::placeholder {
+    color: white;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+
+.av-aa {
+    text-align: center;
+}
+
 
 .button {
     border: 30px solid transparent;
@@ -73,58 +91,25 @@ footer {
 
 .forgot {
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
     float: center;
     padding: 1%;
 }
 
-.a {
-    text-align: center;
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .botaoRedirecionado   {
-    background-color: yellow;
+    background-color: rgba(241, 255, 50, 0.5) ;
     text-align: center;
-    border: 30px solid transparent;
-    border-radius: 20px;
-}
-/* AREA DO ALUNO  */
-
-.body2 {
-    background-image: url(fotos/white.jpeg);
-}
-.backgroundb2 {
-    background-color: rgb(49, 30, 100);
+    border: 15px solid transparent;
+    border-radius: 50px;
 }
 
-.logobc {
-    text-align: left;
-    float: left;
-}
-
-.tableb2 {
-    border: 3px solid black;
-    border-collapse: collapse;
-    text-align: left;
-    float: left;
-    background-color: white;
-    width: 100%;
-}
-
-.ambiente_virtual {
-    text-align: left;
-    float: left;
-    left: 100%;
-    width: 300px;
-}
-
-.header {
-    text-align: center;
-    width: 100%;
-    color: black;
-}
-
+/* Esqueceu senha */
 
 .body3 {
     background-image: url(fotos/white.jpeg);
