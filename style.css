@@ -16,6 +16,7 @@ table {
     border-radius: 20px;
     margin: auto;
     width: 30%;
+    align-self: left;
 }
 
 header {

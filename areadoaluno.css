@@ -28,7 +28,6 @@ table {
     float: left;
     background-color: white;
     width: 100%;
-    padding: 15%;
 }
 
 .td2 {
@@ -62,7 +61,8 @@ tr {
 }
 
 .table2 {
-    width: 1500px;
+    width: 1300px;
     height: 390px;
 }
+
 
